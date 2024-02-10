@@ -1,55 +1,21 @@
-**README**
+# IP changer
 
-**Step 1: Installation**
+This script allows you to easily change your IP address on Linux systems.
 
-1. Clone the repository to your local machine:
+## Installation:
+1. Clone the repository: `git clone https://github.com/MrPanther0/ip_changer.git`
+2. Navigate to the cloned directory: `cd ip_changer`
 
-    
-﻿
-git clone https://github.com/MrPanther0/ip_changer.git﻿
+## Change IP Address Randomly:
+* Run the following command: `bash ip_changer.sh`
+* This will randomly generate a new IP address and change it on your system
 
-2. Navigate to the cloned directory:
+## Warnings:
+* Use this script at your own risk. Changing your IP address may interfere with network connectivity or cause other issues.
+* Do not use this script for illegal purposes.
 
-    
-﻿
-cd ip_changer﻿
+## Additional Notes:
+* This script has been tested on Ubuntu and Kali Linux systems. It may work on other Linux distributions as well, but compatibility is not guaranteed.
+* If you encounter any issues or have any questions, feel free to open an issue on the GitHub repository.
 
-**Step 2: Setup**
-
-1. Open the `ip_changer.sh` file in a text editor.
-2. Locate the following line:
-
-    
-﻿
-user="Mr.Panther"﻿
-
-3. Replace `"Mr.Panther"` with your name.
-
-**Step 3: Execution**
-
-1. Make the script executable:
-
-    
-﻿
-chmod +x ip_changer.sh﻿
-
-2. Run the script:
-
-    
-﻿
-./ip_changer.sh﻿
-
-**Warnings:**
-
-* This script requires `sudo` privileges to run.
-* The script will change your IP address and subnet mask every 2 minutes.
-* Use this script at your own risk.
-
-**Additional Notes:**
-
-* You can change the frequency of IP address changes by modifying the `sleep` command in the script.
-* You can also add additional functionality to the script, such as logging the IP address changes.
-
-**GitHub URL:**
-
-https://github.com/MrPanther0/ip_changer
+Enjoy!
