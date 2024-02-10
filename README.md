@@ -5,6 +5,10 @@ This script allows you to easily change your IP address on Linux systems.
 ## Installation:
 1. Clone the repository: `git clone https://github.com/MrPanther0/ip_changer.git`
 2. Navigate to the cloned directory: `cd ip_changer`
+   
+## Give Permision**:
+* Run the following command: `chmod 777 ip_changer.sh`
+* This will make the script executable 
 
 ## Change IP Address Randomly:
 * Run the following command: `bash ip_changer.sh`
